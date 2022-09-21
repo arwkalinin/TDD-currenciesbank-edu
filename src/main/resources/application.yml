@@ -1,0 +1,23 @@
+server:
+  port: 7070
+
+#spring:
+#  datasource:
+#    driver-class-name: org.postgresql.Driver
+#    url: jdbc:postgresql://localhost:5432/postgres
+#    username: postgres
+#    password: postgres
+#  jpa:
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.PostgreSQLDialect
+#        show_sql: true
+#  mvc:
+#    hiddenmethod:
+#      filter:
+#        enabled: true
+
+central-bank-client:
+  url: https://www.cbr-xml-daily.ru/daily_json.js
+  connection-timeout: 3000
+  read-timeout: 3000

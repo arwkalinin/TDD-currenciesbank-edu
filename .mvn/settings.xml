@@ -1,0 +1,33 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                      https://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+  <mirrors>
+    <mirror>
+      <id>nexus</id>
+      <name>Fabit nexus</name>
+      <url>https://nexus.fabit.ru/nexus/content/groups/public</url>
+      <mirrorOf>*</mirrorOf>
+    </mirror>
+    <mirror>
+      <id>spring-milestones</id>
+      <name>Mirror of spring milestones</name>
+      <url>https://nexus.fabit.ru/nexus/content/repositories/spring-milestones/</url>
+      <mirrorOf>spring-milestones</mirrorOf>
+    </mirror>
+    <mirror>
+      <id>jitpack.io-mirror</id>
+      <name>Mirror of library geocalc</name>
+      <url>https://nexus.fabit.ru/nexus/content/repositories/jitpack.io/</url>
+      <mirrorOf>jitpack.io</mirrorOf>
+    </mirror>
+    <mirror>
+      <id>sonatype-snapshot</id>
+      <name>Mirror of sonatype snapshots</name>
+      <url>https://nexus.fabit.ru/nexus/content/repositories/sonatype-snapshot/</url>
+      <mirrorOf>sonatype-snapshot</mirrorOf>
+    </mirror>
+  </mirrors>
+
+</settings>
